@@ -1,4 +1,4 @@
-Feature: Feaure to Amazon website
+Feature: Feature to Amazon website
 
 @purchase
 Scenario Outline: Purchase a product from Amazon

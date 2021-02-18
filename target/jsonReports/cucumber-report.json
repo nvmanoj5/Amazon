@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-02-18T11:56:12.130Z",
+        "start_timestamp": "2021-02-18T16:36:38.649Z",
         "line": 15,
         "name": "Purchase a product from Amazon",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14447707500,
+              "duration": 38087000000,
               "status": "passed"
             },
             "line": 6,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 22627926100,
+              "duration": 20316000000,
               "status": "passed"
             },
             "line": 7,
@@ -43,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 3267423700,
+              "duration": 63958000000,
               "status": "passed"
             },
             "line": 8,
@@ -55,9 +55,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.support.ui.Select.selectByVisibleText(String)\" because \"this.Quantity\" is null\r\n\tat pagefactory.ProductResultsPage.Quantity(ProductResultsPage.java:48)\r\n\tat stepdefinitions.StepDefinition.add_a_quantity_and_click_Add_to_cart(StepDefinition.java:65)\r\n\tat ✽.Add a quantity \"2\" and click Add to cart(file:///E:/Automation/Eclipse/amazon/src/test/java/features/Amazon.feature:9)\r\n",
-              "duration": 1001100,
-              "status": "failed"
+              "duration": 18283000000,
+              "status": "passed"
             },
             "line": 9,
             "name": "Add a quantity \"2\" and click Add to cart",
@@ -74,7 +73,7 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "passed"
             },
             "line": 10,
             "name": "Go to the cart page and check the product names and total prices",

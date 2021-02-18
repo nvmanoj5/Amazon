@@ -26,7 +26,7 @@ public class ProductResultsPage {
 	WebElement instock;
 	
 	@FindBy(xpath ="//select[@id='quantity']")
-	Select Quantity;
+	WebElement Quantity;
 	
 	@FindBy(xpath ="//input[@id='add-to-cart-button']")
 	WebElement addToCart;
@@ -44,8 +44,12 @@ public class ProductResultsPage {
 	}
 	
 	public void Quantity(String quantity) throws InterruptedException {
+		//Quantity.
+		//Quantity.selectByVisibleText(quantity);
 		
-		Quantity.selectByVisibleText(quantity);
+		System.out.println("quantity" +quantity);
+		Select dropdown = new Select(Quantity);  
+		dropdown.selectByVisibleText(quantity);
 
 	}
 	
